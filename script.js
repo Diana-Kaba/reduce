@@ -1,9 +1,9 @@
-let m = 5;
-let n = 15;
+let m = prompt("Enter numerator:");
+let n = prompt("Enter the denominator:");
 if (n === 0) {
   alert("Do not divide by 0!");
 } else if (m === 0) {
-  if (isNaN(n)) {
+  if (isNaN(n) && isNaN(m)) {
     alert("Not a Number!");
   }
 } else {
